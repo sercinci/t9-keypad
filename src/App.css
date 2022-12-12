@@ -1,0 +1,60 @@
+button {
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+.App__header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+}
+
+.App__main {
+  padding: 16px;
+}
+
+.App__digits {
+  align-items: center;
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  width: 250px;
+}
+
+.App__clear {
+  position: absolute;
+  right: 0;
+}
+
+.App__keyboard {
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  height: 250px;
+  margin: auto;
+  width: 250px;
+}
+
+.App__key--bold {
+  font-weight: bold;
+}
+
+.App__words {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.App__word {
+  background-color: lightgrey;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px;
+}
